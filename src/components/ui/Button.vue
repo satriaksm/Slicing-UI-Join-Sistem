@@ -26,8 +26,8 @@ const props = defineProps({
 const router = useRouter();
 
 const buttonClass = props.variant === 'primary' 
-  ? 'bg-primary font-sen text-h6 font-bold leasing-h6 text-white py-4 px-12 hover:bg-secondary' 
-  : 'bg-primary text-white font-bold text-h6 leasing-h6 font-sen py-3 px-8 rounded-full hover:bg-secondary';
+  ? 'bg-primary font-sen text-h6 font-bold leasing-h6 text-white py-4 px-12 hover:bg-secondary transition duration-300' 
+  : 'bg-primary text-white font-bold text-h6 leasing-h6 font-sen py-3 px-8 rounded-full hover:bg-secondary transition duration-300';
 
 const handleClick = (event) => {
   if (props.to) {

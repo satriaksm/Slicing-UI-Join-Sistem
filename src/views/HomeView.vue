@@ -93,30 +93,30 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
             <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue">All Post</h2>
             <a href="" class="font-inter text-body1 leading-body1 font-normal text-yellow">View All</a>
             </div>
-            <div class="flex flex-col gap-0 mt-10">
+            <a href="#" class="flex flex-col gap-0 mt-10 hover:bg-lightyellow transition duration-300">
               <div class="p-8">
                 <p class="font-inter text-label leading-label font-normal text-darkgrey mb-3">By <span class="text-yellow">John Deo</span>   l   Aug 23, 2021 </p>
                 <h4 class="font-sen text-h4 leading-h4 font-bold text-darkblue max-w-[369px]">8 Figma design systems that you can download for free today.</h4>
               </div>
-            </div>
-            <div class="flex flex-col  bg-lightyellow">
+            </a>
+            <a href="#" class="flex flex-col  hover:bg-lightyellow transition duration-300">
               <div class="p-8">
                 <p class="font-inter text-label leading-label font-normal text-darkgrey mb-3">By <span class="text-yellow">John Deo</span>   l   Aug 23, 2021 </p>
                 <h4 class="font-sen text-h4 leading-h4 font-bold text-darkblue max-w-[369px]">8 Figma design systems that you can download for free today.</h4>
               </div>
-            </div>
-            <div class="flex flex-col ">
+            </a>
+            <a href="#" class="flex flex-col hover:bg-lightyellow transition duration-300">
               <div class="p-8">
                 <p class="font-inter text-label leading-label font-normal text-darkgrey mb-3">By <span class="text-yellow">John Deo</span>   l   Aug 23, 2021 </p>
                 <h4 class="font-sen text-h4 leading-h4 font-bold text-darkblue max-w-[369px]">8 Figma design systems that you can download for free today.</h4>
               </div>
-            </div>
-            <div class="flex flex-col ">
+            </a>
+            <a href="#" class="flex flex-col hover:bg-lightyellow transition duration-300">
               <div class="p-8">
                 <p class="font-inter text-label leading-label font-normal text-darkgrey mb-3">By <span class="text-yellow">John Deo</span>   l   Aug 23, 2021 </p>
                 <h4 class="font-sen text-h4 leading-h4 font-bold text-darkblue max-w-[369px]">8 Figma design systems that you can download for free today.</h4>
               </div>
-            </div>
+            </a>
           </div>
         </div>
      </div>
@@ -159,25 +159,25 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
      <div class="max-w-screen-2xl mx-auto px-8 pb-36">
           <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue text-center mb-8">Choose A Catagory</h2>
           <div class="flex justify-between">
-            <div class="p-8 border max-w-80">
+            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon1" alt="icon1" class="bg-lightyellow rounded-lg mb-3">
-              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue mb-3">Business</h3>
-              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Business</h3>
+              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
-            <div class="p-8 border max-w-80 bg-blue">
+            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon2" alt="icon2" class="bg-lightyellow rounded-lg mb-3 p-3">
-              <h3 class="font-sen text-h3 leading-h3 font-bold text-white mb-3">Startup</h3>
-              <p class="font-inter text-body1 leading-body1 font-normal text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h3 class="font-sen text-h3 leading-h3 font-bold  mb-3 text-darkblue group-hover:text-white transition duration-300">Startup</h3>
+              <p class="font-inter text-body1 leading-body1 font-normal  text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
-            <div class="p-8 border max-w-80">
+            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon3" alt="icon3" class="bg-lightyellow rounded-lg mb-3">
-              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue mb-3">Economy</h3>
-              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Economy</h3>
+              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
-            <div class="p-8 border max-w-80">
+            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon4" alt="icon4" class="bg-lightyellow rounded-lg mb-3">
-              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue mb-3">Technology</h3>
-              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+              <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Technology</h3>
+              <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
             </div>
           </div>
      </div>
@@ -206,9 +206,9 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
 
     <!-- list of authors  -->
     <div class="max-w-screen-2xl mx-auto px-8 pb-36">
-          <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue text-center mb-8">Choose A Catagory</h2>
+          <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue text-center mb-8">Lists of Author</h2>
           <div class="flex justify-between">
-            <div class="p-8 w-72 h-80 bg-lightgrey text-center">
+            <div class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center">
                 <img :src="Author1" alt="author1" class="mx-auto">
                 <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue tracking-tight mt-4">Floyd Miles</h3>
                 <p class="font-inter text-body2 leading-body2 font-normal text-mediumgrey mt-1">Content Writer @Company</p>
@@ -219,7 +219,7 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
                     <a href="#"><img :src="LinkedIn" alt="linkedin"></a>
                 </div>
             </div>
-            <div class="p-8 w-72 h-80 bg-lightyellow text-center">
+            <div class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center">
                 <img :src="Author2" alt="author2" class="mx-auto">
                 <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue tracking-tight mt-4">Dianne Russell</h3>
                 <p class="font-inter text-body2 leading-body2 font-normal text-mediumgrey mt-1">Content Writer @Company</p>
@@ -230,7 +230,7 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
                     <a href="#"><img :src="LinkedIn" alt="linkedin"></a>
                 </div>
             </div>
-            <div class="p-8 w-72 h-80 bg-lightgrey text-center">
+            <div class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center">
                 <img :src="Author3" alt="author3" class="mx-auto">
                 <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue tracking-tight mt-4">Jenny Wilson</h3>
                 <p class="font-inter text-body2 leading-body2 font-normal text-mediumgrey mt-1">Content Writer @Company</p>
@@ -241,7 +241,7 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
                     <a href="#"><img :src="LinkedIn" alt="linkedin"></a>
                 </div>
             </div>
-            <div class="p-8 w-72 h-80 bg-lightgrey text-center">
+            <div class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center">
                 <img :src="Author4" alt="author1" class="mx-auto">
                 <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue tracking-tight mt-4">Leslie Alexander</h3>
                 <p class="font-inter text-body2 leading-body2 font-normal text-mediumgrey mt-1">Content Writer @Company</p>
