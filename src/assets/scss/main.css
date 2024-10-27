@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Sen';
+    src: url('@/assets/fonts/sen-variable-font.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('@/assets/fonts/inter-variable-font.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('@/assets/fonts/montserrat-variable-font.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+  }

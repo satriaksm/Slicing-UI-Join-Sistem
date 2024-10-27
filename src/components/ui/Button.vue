@@ -1,0 +1,38 @@
+<template>
+  <button :class="buttonClass" @click="handleClick">
+    <slot></slot> <!-- Konten di dalam tombol -->
+  </button>
+</template>
+
+<script setup>
+import { defineProps } from 'vue';
+import { useRouter } from 'vue-router'; // Perbaiki impor ini
+
+const props = defineProps({
+  variant: {
+    type: String,
+    default: 'primary',
+  },
+  onClick: {
+    type: Function,
+    default: () => {},
+  },
+  to: {
+    type: String,
+    default: null,
+  },
+});
+
+const router = useRouter();
+
+const buttonClass = props.variant === 'primary' 
+  ? 'bg-primary font-sen text-h6 font-bold leasing-h6 text-white py-4 px-12 hover:bg-secondary' 
+  : 'bg-primary text-white font-bold text-h6 leasing-h6 font-sen py-3 px-8 rounded-full hover:bg-secondary';
+
+const handleClick = (event) => {
+  if (props.to) {
+    router.push(props.to);
+  }
+  props.onClick(event);
+};
+</script>
