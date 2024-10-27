@@ -159,26 +159,26 @@ import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
      <div class="max-w-screen-2xl mx-auto px-8 pb-36">
           <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue text-center mb-8">Choose A Catagory</h2>
           <div class="flex justify-between">
-            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
+            <a href="#" class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon1" alt="icon1" class="bg-lightyellow rounded-lg mb-3">
               <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Business</h3>
               <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            </div>
-            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
+            </a>
+            <a href="#" class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon2" alt="icon2" class="bg-lightyellow rounded-lg mb-3 p-3">
               <h3 class="font-sen text-h3 leading-h3 font-bold  mb-3 text-darkblue group-hover:text-white transition duration-300">Startup</h3>
               <p class="font-inter text-body1 leading-body1 font-normal  text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            </div>
-            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
+            </a>
+            <a href="#" class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon3" alt="icon3" class="bg-lightyellow rounded-lg mb-3">
               <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Economy</h3>
               <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            </div>
-            <div class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
+            </a>
+            <a href="#" class="p-8 border max-w-80 hover:bg-blue group transition duration-300">
               <img :src="Icon4" alt="icon4" class="bg-lightyellow rounded-lg mb-3">
               <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue group-hover:text-white mb-3 transition duration-300">Technology</h3>
               <p class="font-inter text-body1 leading-body1 font-normal text-mediumgrey group-hover:text-white transition duration-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-            </div>
+            </a>
           </div>
      </div>
     <!-- end of categories  -->
