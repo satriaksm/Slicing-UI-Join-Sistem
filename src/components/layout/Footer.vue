@@ -16,11 +16,11 @@ import Button from '@/components/ui/Button.vue';
                 <img :src="LogoFooter" alt="logo">
                 <div>
                     <ul class="flex gap-8">
-                        <li ><a href="/" class="font-inter text-body1 leasing-body1 text-white font-normal">Home</a></li>
-                        <li ><a href="blog" class="font-inter text-body1 leasing-body1 text-white font-normal">Blog</a></li>
-                        <li ><a href="about" class="font-inter text-body1 leasing-body1 text-white font-normal">About Us</a></li>
-                        <li ><a href="contact" class="font-inter text-body1 leasing-body1 text-white font-normal">Contact Us</a></li>
-                        <li ><a href="privacy-policy" class="font-inter text-body1 leasing-body1 text-white font-normal">Privacy Policy</a></li>
+                        <li ><a href="/" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Home</a></li>
+                        <li ><a href="blog" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Blog</a></li>
+                        <li ><a href="about" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">About Us</a></li>
+                        <li ><a href="contact" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Contact Us</a></li>
+                        <li ><a href="privacy-policy" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
