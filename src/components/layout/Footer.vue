@@ -16,17 +16,17 @@ import Button from '@/components/ui/Button.vue';
                 <img :src="LogoFooter" alt="logo">
                 <div>
                     <ul class="flex gap-8">
-                        <li ><a href="/" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Home</a></li>
-                        <li ><a href="blog" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Blog</a></li>
-                        <li ><a href="about" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">About Us</a></li>
-                        <li ><a href="contact" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Contact Us</a></li>
-                        <li ><a href="privacy-policy" class="font-inter text-body1 leasing-body1 text-white font-normal hover:text-yellow transition duration-300">Privacy Policy</a></li>
+                        <li ><a href="/" class="body1 text-white hover:text-yellow transition duration-300">Home</a></li>
+                        <li ><a href="blog" class="body1 text-white hover:text-yellow transition duration-300">Blog</a></li>
+                        <li ><a href="about" class="body1 text-white hover:text-yellow transition duration-300">About Us</a></li>
+                        <li ><a href="contact" class="body1 text-white hover:text-yellow transition duration-300">Contact Us</a></li>
+                        <li ><a href="privacy-policy" class="body1 text-white hover:text-yellow transition duration-300">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
 
             <div class="bg-white/5 py-12 px-16 flex justify-between mb-14 ">
-                <h2 class="font-sen text-white text-h2 leasing-h2 font-bold me-6 basis-1/2">Subscribe to our news letter to get latest updates and news</h2>
+                <h2 class="h2 text-white me-6 basis-1/2">Subscribe to our news letter to get latest updates and news</h2>
                 <form action="">
                     <div class="flex gap-8 basis-1/2">
                         <input type="email" placeholder="Enter Your Email" class="w-96 bg-transparent p-3 border border-darkgrey text-white focus:outline-none" >
@@ -39,8 +39,8 @@ import Button from '@/components/ui/Button.vue';
 
             <div class="flex justify-between">
                 <div>
-                    <p class="font-inter text-body1 font-normal leasing-body1 text-white/70">Finstreet 118 2561 Fintown</p>
-                    <p class="font-inter text-body1 font-normal leasing-body1 text-white/70">Hello@finsweet.com 020 7993 2905</p>
+                    <p class="body1 text-white/70">Finstreet 118 2561 Fintown</p>
+                    <p class="body1 text-white/70">Hello@finsweet.com 020 7993 2905</p>
                 </div>
                 <div class="flex gap-6">
                     <a href="#"><img :src="Facebook" alt="facebook"></a>

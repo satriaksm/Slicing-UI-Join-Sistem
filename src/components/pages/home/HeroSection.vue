@@ -27,16 +27,16 @@ import Button from '@/components/ui/Button.vue';
 
       <!-- Konten yang berada di atas overlay -->
       <div class="relative z-10 max-w-screen-2xl mx-auto px-8 py-36">
-        <p class="font-inter text-h6 leasing-h6 font-regular text-white uppercase tracking-widest mb-4">
+        <p class="cap1 text-white uppercase tracking-[3px] mb-4">
           Posted on <span class="font-bold">startup</span>
         </p>
-        <h1 class="font-sen text-display leasing-display font-bold text-white mb-12 max-w-4xl">
+        <h1 class="display text-white mb-12 max-w-4xl">
           Step-by-step guide to choosing great font pairs
         </h1>
-        <p class="font-inter text-body1 leasing-body1 font-normal text-white mb-8">
+        <p class="body1 text-white mb-8">
           By <span class="text-primary">James West</span> | May 23, 2022
         </p>
-        <p class="font-inter text-body1 leasing-body1 font-normal text-white mb-12 max-w-3xl">
+        <p class="body1 text-white mb-12 max-w-3xl">
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
         </p>
         <Button variant="primary" to="/post">

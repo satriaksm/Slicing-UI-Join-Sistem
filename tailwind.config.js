@@ -34,6 +34,9 @@ export default {
         body1: '16px',
         body2: '14px',
         label: '14px',
+        cap1: '16px',
+        cap2: '12px',
+        cap3: '16px'
       },
       lineHeight: {
         display:'64px',
@@ -46,6 +49,9 @@ export default {
         body1:'28px',
         body2:'20px',
         label:'20px',
+        cap1:'20px',
+        cap2:'16px',
+        cap3:'20px'
       }
     },
   },

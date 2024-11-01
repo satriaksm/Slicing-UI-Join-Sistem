@@ -23,4 +23,42 @@
     font-style: normal;
   }
 
-  
+  .display {
+    @apply font-sen font-bold text-display leading-display tracking-[-2px]
+  }
+  .h1 {
+    @apply font-sen font-bold text-h1 leading-h1 tracking-[-2px]
+  }
+  .h2 {
+    @apply font-sen font-bold text-h2 leading-h2 tracking-[-2px]
+  }
+  .h3 {
+    @apply font-sen font-bold text-h3 leading-h3 tracking-[-1px]
+  }
+  .h4 {
+    @apply font-sen font-bold text-h4 leading-h4
+  }
+  .h5 {
+    @apply font-sen font-bold text-h5 leading-h5
+  }
+  .h6 {
+    @apply font-sen font-bold text-h6 leading-h6
+  }
+  .body1 {
+    @apply font-inter font-normal text-body1 leading-body1 
+  }
+  .body2 {
+    @apply font-inter font-normal text-body2 leading-body2
+  }
+  .label {
+    @apply font-inter font-medium text-label leading-label
+  }
+  .cap1 {
+    @apply font-inter font-medium text-cap1 leading-cap1
+  }
+  .cap2 {
+    @apply font-inter font-medium text-cap2 leading-cap2
+  }
+  .cap3 {
+    @apply font-inter font-black text-cap3 leading-cap3
+  }

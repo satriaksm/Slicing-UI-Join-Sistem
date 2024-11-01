@@ -17,9 +17,10 @@ const categories = ref([
 </script>
 <template>
          <div class="max-w-screen-2xl mx-auto px-8 pb-36">
-          <h2 class="font-sen text-h2 leading-h2 font-bold text-darkblue text-center mb-8">Choose A Catagory</h2>
+          <h2 class="h2 text-darkblue text-left mb-8">All Categories</h2>
           <div class="flex justify-between">
             <CategoryCard
+              extraClass="flex flex-col gap-3"
               v-for="category in categories"
               :key="category.id"
               :category="category"

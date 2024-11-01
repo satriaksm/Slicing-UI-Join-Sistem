@@ -11,15 +11,15 @@ defineProps({
 });
 </script>
 <template>
-            <div class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center">
+            <a :href="author.link" class="p-8 w-72 h-80 bg-lightgrey hover:bg-lightyellow transition duration-300 text-center mt-4">
                 <img :src="author.image" alt="author1" class="mx-auto">
-                <h3 class="font-sen text-h3 leading-h3 font-bold text-darkblue tracking-tight mt-4">{{author.name}}</h3>
-                <p class="font-inter text-body2 leading-body2 font-normal text-mediumgrey mt-1">{{author.job}}</p>
+                <h3 class="h3 text-darkblue tracking-tight mt-4">{{author.name}}</h3>
+                <p class="body2 text-mediumgrey mt-1">{{author.job}}</p>
                 <div class="flex gap-4 justify-center pt-4">
-                    <a :href="author.facebook"><img :src="Facebook" alt="facebook"></a>
-                    <a :href="author.twitter"><img :src="Twitter" alt="twitter"></a>
-                    <a :href="author.instagram"><img :src="Instagram" alt="instagram"></a>
-                    <a :href="author.linkedin"><img :src="LinkedIn" alt="linkedin"></a>
+                    <a :href="author.facebook"><img :src="Facebook" alt="facebook" class="hover:w-5"></a>
+                    <a :href="author.twitter"><img :src="Twitter" alt="twitter" class="hover:w-5"></a>
+                    <a :href="author.instagram"><img :src="Instagram" alt="instagram" class="hover:w-5"></a>
+                    <a :href="author.linkedin"><img :src="LinkedIn" alt="linkedin" class="hover:w-5"></a>
                 </div>
-            </div>
+            </a>
 </template>
