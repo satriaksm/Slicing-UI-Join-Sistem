@@ -43,9 +43,10 @@ const router = createRouter({
       component: Contact
     },
     {
-      path: '/category',
-      name: 'Category',
-      component: Category
+      path: '/category/:categoryName',
+      name: 'category',
+      component: Category,
+      props: true
     },
     {
       path: '/privacy-policy',
