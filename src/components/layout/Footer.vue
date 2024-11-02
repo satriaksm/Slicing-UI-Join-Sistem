@@ -11,7 +11,7 @@ import Button from '@/components/ui/Button.vue';
 
 <template>
     <div class="bg-darkblue py-16">
-        <div class="p-8 max-w-screen-2xl mx-auto">
+        <div class="px-16 py-8 max-w-screen-3xl mx-auto">
             <div class="flex justify-between mb-14">
                 <img :src="LogoFooter" alt="logo">
                 <div>

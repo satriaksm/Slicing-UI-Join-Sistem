@@ -22,7 +22,7 @@ const posts = computed(() => allPosts.value.slice(1));
 
 </script>
 <template>
-     <div class="max-w-screen-2xl mx-auto px-8 py-36">
+     <div class="max-w-screen-2xl mx-auto px-16 py-36">
         <div class="grid grid-cols-12 gap-8">
           <div class="col-span-8">
             <h2 class="h2 text-darkblue mb-10">Featured Post</h2>

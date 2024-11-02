@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button.vue';
 
 <template>
     <div class="bg-darkblue ">
-        <div class="p-8 flex justify-between max-w-screen-2xl mx-auto items-center">
+        <div class="px-16 py-8 flex justify-between max-w-screen-3xl mx-auto items-center">
             <a href="/"><img :src="Logo" alt="logo" width="117px"></a>
             <div>
                 <ul class="flex gap-8">

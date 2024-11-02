@@ -43,7 +43,7 @@ const prev = () => {
 </script>
 
 <template>
-  <div class="max-w-screen-2xl mx-auto px-8 mb-36">
+  <div class="max-w-screen-2xl mx-auto px-16 mb-36">
     <div class="bg-lightyellow">
       <div class="flex">
         <div class="basis-4/12 ps-24 py-24">

@@ -12,7 +12,7 @@ const posts=ref([
 ])
 </script>
 <template>
-        <div class="max-w-screen-2xl mx-auto px-8 pb-20 border-b mb-16">
+        <div class="max-w-screen-2xl mx-auto px-16 pb-20 border-b mb-16">
           <h2 class="h2 text-darkblue tracking-tighter mb-16">What to read next</h2>
           <div class="flex justify-between">
             <Posts 

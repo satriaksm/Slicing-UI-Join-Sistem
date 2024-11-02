@@ -26,7 +26,7 @@ import Button from '@/components/ui/Button.vue';
       ></div>
 
       <!-- Konten yang berada di atas overlay -->
-      <div class="relative z-10 max-w-screen-2xl mx-auto px-8 py-36">
+      <div class="relative z-10 max-w-screen-2xl mx-auto px-16 py-36">
         <p class="cap1 text-white uppercase tracking-[3px] mb-4">
           Posted on <span class="font-bold">startup</span>
         </p>

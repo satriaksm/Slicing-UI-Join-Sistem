@@ -3,7 +3,7 @@ import Image1 from '@/assets/images/About/body1.png';
 import Image2 from '@/assets/images/About/body2.png';
 </script>
 <template>
-    <div class="max-w-screen-2xl mx-auto pb-36 md:px-20 lg:px-8">
+    <div class="max-w-screen-2xl mx-auto pb-36 px-16">
         <div class="relative mb-36">
             <div class="grid grid-cols-2 gap-24 items-center">
             <div class="">

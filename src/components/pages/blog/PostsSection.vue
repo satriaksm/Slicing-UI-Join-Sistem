@@ -47,7 +47,7 @@ const prevPage = () => {
 </script>
 
 <template>
-  <div class="max-w-screen-2xl mx-auto px-8 py-36">
+  <div class="max-w-screen-2xl mx-auto px-16 py-36">
     <div class="border-b pb-10">
       <h1 class="h1 text-darkblue tracking-tighter">All posts</h1>
     </div>

@@ -16,7 +16,7 @@ const authors = ref([
 
 </script>
 <template>
-<div class="max-w-screen-2xl mx-auto px-8 pb-36">
+<div class="max-w-screen-2xl mx-auto px-16 pb-36">
           <h2 class="h2 text-darkblue text-center mb-8">Lists of Author</h2>
           <div class="flex justify-between">
             <AuthorCard 

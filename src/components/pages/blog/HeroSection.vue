@@ -5,7 +5,7 @@ import Button from '@/components/ui/Button.vue';
 </script>
 <template>
          <div class="bg-lightergrey">
-      <div class="flex max-w-screen-2xl mx-auto px-8 py-32">
+      <div class="flex max-w-screen-2xl mx-auto px-16 py-32">
         <div class="basis-1/2">
           <p class="h6 text-darkblue uppercase tracking-[3px] mb-4">Featured Post</p>
               <h1 class="h2 text-darkblue mb-6 max-w-4xl">Step-by-step guide to choosing great font pairs</h1>

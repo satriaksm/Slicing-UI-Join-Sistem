@@ -2,7 +2,7 @@
 
 </script>
 <template>
-     <div class="max-w-screen-2xl mx-auto px-8 pb-36">
+     <div class="max-w-screen-2xl mx-auto px-16 pb-36">
         <div class="flex flex-col ">
           <div class="flex flex-row">
             <div class="bg-white w-2/12 h-5"></div>

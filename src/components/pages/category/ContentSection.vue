@@ -99,7 +99,7 @@ const filteredTags = computed(() => {
 </script>
 
 <template>
-  <div class="grid grid-cols-12 max-w-screen-2xl mx-auto px-8 py-36">
+  <div class="grid grid-cols-12 max-w-screen-2xl mx-auto px-16 py-36">
     <div class="col-span-9">
       <Posts
         v-for="post in filteredPosts"

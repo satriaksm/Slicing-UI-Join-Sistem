@@ -7,7 +7,7 @@ import Icon1 from '@/assets/images/component/Categories icon/Startup.png';
 <template>
 
         <!-- head post  -->
-        <div class="max-w-screen-2xl mx-auto px-8 pt-36 pb-16 flex justify-center">
+        <div class="max-w-screen-2xl mx-auto px-16 pt-36 pb-16 flex justify-center">
       <div class="max-w-[768px]">
         <div class="flex gap-4 items-center mb-6">
           <div>

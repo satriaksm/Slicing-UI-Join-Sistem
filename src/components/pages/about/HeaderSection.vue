@@ -3,7 +3,7 @@ import Header from '@/assets/images/About/Header.png';
 
 </script>
 <template>
-    <div class="max-w-screen-2xl mx-auto py-36 px-8">
+    <div class="max-w-screen-2xl mx-auto py-36 px-16">
         <div class="relative">
             <div class="flex justify-around mb-20">
                 <div class="basis-1/2">

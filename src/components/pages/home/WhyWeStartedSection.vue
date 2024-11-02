@@ -5,7 +5,7 @@ import Button from '@/components/ui/Button.vue';
 </script>
 <template>
          <div class="pb-36">
-      <div class="relative bg-white max-w-screen-2xl px-8 mx-auto">
+      <div class="relative bg-white max-w-screen-2xl px-16 mx-auto">
         <div class="w-full h-full bg-blue-500">
           <img :src="Hugging" alt="hugging">
         </div>

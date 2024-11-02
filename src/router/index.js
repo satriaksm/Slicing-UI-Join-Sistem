@@ -33,9 +33,10 @@ const router = createRouter({
       component: About
     },
     {
-      path: '/author',
+      path: '/author/:id',
       name: 'Author',
-      component: Author
+      component: Author,
+      props: true // Ini memungkinkan kita untuk menerima id sebagai prop
     },
     {
       path: '/contact',
