@@ -19,7 +19,7 @@ import { useRoute } from 'vue-router';
 const route = useRoute();
 const authorData = ref(null);
 
-// Data author (dalam praktik nyata, ini bisa diambil dari API)
+// Data author 
 const authors = [
 {
     id: 1,

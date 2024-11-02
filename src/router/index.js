@@ -36,7 +36,7 @@ const router = createRouter({
       path: '/author/:id',
       name: 'Author',
       component: Author,
-      props: true // Ini memungkinkan kita untuk menerima id sebagai prop
+      props: true
     },
     {
       path: '/contact',

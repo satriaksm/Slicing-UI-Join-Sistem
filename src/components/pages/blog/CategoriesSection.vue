@@ -8,10 +8,10 @@ import CategoryCard from '@/components/ui/CategoryCard.vue';
 import { ref } from 'vue';
 
 const categories = ref([
-  {id:1, name: 'Business', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category', icon: Icon1},
-  {id:2, name: 'Startup', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category', icon: Icon2},
-  {id:3, name: 'Economy', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category', icon: Icon3},
-  {id:4, name: 'Technology', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category', icon: Icon4},
+  {id:1, name: 'Business', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category/business', icon: Icon1},
+  {id:2, name: 'Startup', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category/startup', icon: Icon2},
+  {id:3, name: 'Economy', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category/economy', icon: Icon3},
+  {id:4, name: 'Technology', description:'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.', link: '/category/technology', icon: Icon4},
   // Tambahkan penulis lainnya sesuai kebutuhan
 ]);
 </script>

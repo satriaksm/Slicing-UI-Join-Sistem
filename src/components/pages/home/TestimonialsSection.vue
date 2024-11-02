@@ -1,4 +1,4 @@
-<!-- TestimonialCarousel.vue -->
+
 <script setup>
 import { ref } from 'vue';
 import Testimonial1 from '@/assets/images/Home/Testimonial1.png';
@@ -18,14 +18,14 @@ const testimonials = ref([
     text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     name: "Sarah Johnson",
     location: "Los Angeles, USA",
-    image: Testimonial2  // Ganti dengan Testimonial2 jika ada
+    image: Testimonial2  
   },
   {
     id: 3,
     text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     name: "Michael Chen",
     location: "Chicago, USA",
-    image: Testimonial3  // Ganti dengan Testimonial3 jika ada
+    image: Testimonial3  
   }
 ]);
 

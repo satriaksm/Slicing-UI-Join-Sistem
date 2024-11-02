@@ -1,12 +1,12 @@
 <template>
   <button :class="buttonClass" @click="handleClick">
-    <slot></slot> <!-- Konten di dalam tombol -->
+    <slot></slot> 
   </button>
 </template>
 
 <script setup>
 import { defineProps } from 'vue';
-import { useRouter } from 'vue-router'; // Perbaiki impor ini
+import { useRouter } from 'vue-router'; 
 
 const props = defineProps({
   variant: {
