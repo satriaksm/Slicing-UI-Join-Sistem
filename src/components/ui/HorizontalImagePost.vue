@@ -7,7 +7,7 @@ defineProps({
 });
 </script>
 <template>
-        <div class="flex items-center mb-14">
+    <div class="flex items-center hover:bg-lightyellow mb-0 p-8  transition duration-200">
           <img :src="post.image" alt="post1">
           <div class="p-8 max-w-5xl">
             <h6 class="h6 text-yellow tracking-widest uppercase mb-4">{{post.category}}</h6>
